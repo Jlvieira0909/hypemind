@@ -1,0 +1,50 @@
+.Welcome-Background {
+    text-align: center;
+    background-color: #0c0c0c;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative;
+}
+
+.HypmndLogo {
+    height: 720px;
+    pointer-events: none;
+    position: relative;
+    z-index: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .HypmndLogo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .HypmndLogo {
+        height: 45vh;
+        opacity: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .Welcome-Background {
+        font-size: calc(10px + 1.5vmin);
+    }
+}

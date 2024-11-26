@@ -1,0 +1,18 @@
+div.CreatorContainer {
+    color: #FFFFFF;
+    padding: 20px 40px;
+}
+
+.CreatorThumb{
+    display: flex;
+}
+
+.CreatorTitle{
+    text-align: center;
+    font-size: 48px;
+}
+
+.CreatorParagraph{
+    text-align: center;
+    font-size: 24px;
+}

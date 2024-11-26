@@ -1,0 +1,41 @@
+div.AboutContainer{
+    color: #FFFFFF;
+    background: #0e0e0e;
+    padding: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+}
+
+button.LanguageToggle{
+    padding: 0.5vw 0.8vw;
+    background: none;
+    border: solid 2px #FFFFFF;
+}
+
+button.LanguageToggle img{
+    width: 2vw !important;
+    height: 2vw !important;
+}
+
+img.AboutThumb{
+    width: 110%;
+    height: 100%;
+    margin-left: -5%;
+}
+
+h1.AboutTitle{
+    text-align: center;
+    font-size: 2.4vw;
+}
+
+p.AboutParagraph{
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+h1.AboutFlavorText{
+    text-align: center;
+    font-size: 4vw;
+    font-style: italic;
+}
