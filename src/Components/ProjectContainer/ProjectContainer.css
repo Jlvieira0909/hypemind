@@ -1,40 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 
 html,
 body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
-    font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
 }
 
 .ProjectsWrapper {
-    display: flex;
-    flex-direction: row;
-    background: #000000;
-    width: 100%;
-    justify-content: left;
-    align-items: center;
-    color: #FFFFFF;
-    padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  width: 24vw;
+  height: 32vw !important;
+  justify-content: left;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px 40px;
+  border: solid 1px #ffffff;
 }
 
 .ProjectLabel {
-    font-size: 32px;
-    font-weight: 100;
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px 16px;
 }
 
 .ProjectNumber {
-    display: flex;
-    font-size: 40px;
-    margin-right: 16px;
+  display: flex;
+  font-size: 32px;
 }
 
 .ProjectName {
-    display: flex;
+  display: flex;
 }
