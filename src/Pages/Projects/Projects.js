@@ -15,6 +15,7 @@ const Projects = () => {
         <ProjectContainer projectNumber="#3" projectName="PORTFOLIO" />
         <ProjectContainer projectNumber="#4" projectName="PORTFOLIO" />
         <ProjectContainer projectNumber="#5" projectName="PORTFOLIO" />
+        <ProjectContainer projectNumber="#6" projectName="PORTFOLIO" />
       </div>
     </div>
   );
