@@ -39,4 +39,40 @@ body {
 
 .ProjectName {
   display: flex;
+  text-align: center;
+}
+
+.ProjectBackground {
+  display: none;
+}
+
+.ProjectsWrapper {
+  width: 20vw;
+  height: 30vw;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  position: relative;
+}
+
+.ProjectsWrapper:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.ProjectsWrapper .ProjectBackground {
+  display: none;
+  position: absolute;
+  overflow: hidden !important;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin-left: -10%;
+}
+
+.ProjectsWrapper:hover .ProjectBackground {
+  display: flex;
+  opacity: 0.25; /* Tornar visível no hover */
+  overflow: hidden;
 }

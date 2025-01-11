@@ -17,9 +17,11 @@ const ProjectContainer = (props) => {
           HypeMind.Inc Drop: {props.projectNumber}
         </h2>
         <h1 className="ProjectName">{props.projectName}</h1>
-        <img className="ProjectBackground" src="" alt="">
-          {props.ProjectBackground}
-        </img>
+        <img
+          className="ProjectBackground"
+          src={props.ProjectBackground}
+          alt=""
+        ></img>
       </div>
     </Link>
   );
